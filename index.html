@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- Poppins Font CDN -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+    rel="stylesheet">
+  <!-- Bootstrap 5 Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+
+  <!-- Styling -->
+  <!-- Bootstrap 5 CDN -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <title>InLearning We Trust</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <div id="navbar" class="d-flex justify-content-between px-5">
+    <div class="navbar-start">
+      <span class="fw-bold fs-4">InLearning</span>
+    </div>
+    <div class="navbar-end">
+      <ul class="navbar-nav">
+        <div class="d-flex flex-row">
+          <li class="nav-item me-4">
+            <a class="nav-link active px-3" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="nav-link px-3" href="materi.html">Materi</a>
+          </li>
+          <li class="nav-item me-4">
+            <a class="px-4 rounded-pill btn btn-light" href="login.html">
+              <span>Sign In</span>
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="px-4 rounded-pill btn btn-primary" href="register.html">
+              <span>Sign Up</span>
+            </a>
+          </li>
+        </div>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Main -->
+  <div class="container py-3">
+    <!-- Landing Page -->
+    <div class="main row">
+      <div class="col-lg-6 col-md-6 col-sm-6 my-auto">
+        <div class="d-flex flex-column">
+          <h1>
+            Jelajahi Pembelajaran
+            <br>
+            Tanpa Batas
+          </h1>
+          <p class="mt-5 text-muted">
+            Memulai pembelajaran menyenangkan bersama
+            <span class="fw-bold">InLearning</span>
+          </p>
+          <a class="btn btn-primary rounded-pill w-50 mt-5" href="register.html">Get Started</a>
+        </div>
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-6">
+        <img class="img-fluid object-fit-cover rounded-5" src="assets/img/landing.jpg" alt="study.jpg" />
+      </div>
+    </div>
+
+    <!-- Materi Belajar -->
+    <div class="materi d-flex flex-column align-items-center">
+      <span class="fw-bold fs-4">Materi Belajar</span>
+      <div class="row mt-4">
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-primary rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-salmon rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-darkpurple rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-pink rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-purple rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 mx-auto mt-5">
+          <a href="#" class="d-flex flex-row align-items-center justify-content-center text-dark text-decoration-none">
+            <div class="bg-lightorange rounded-circle p-3 text-light">
+              <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-book"
+                viewBox="0 0 16 16">
+                <path
+                  d="M1 2.828c.885-.37 2.154-.769 3.388-.893 1.33-.134 2.458.063 3.112.752v9.746c-.935-.53-2.12-.603-3.213-.493-1.18.12-2.37.461-3.287.811zm7.5-.141c.654-.689 1.782-.886 3.112-.752 1.234.124 2.503.523 3.388.893v9.923c-.918-.35-2.107-.692-3.287-.81-1.094-.111-2.278-.039-3.213.492zM8 1.783C7.015.936 5.587.81 4.287.94c-1.514.153-3.042.672-3.994 1.105A.5.5 0 0 0 0 2.5v11a.5.5 0 0 0 .707.455c.882-.4 2.303-.881 3.68-1.02 1.409-.142 2.59.087 3.223.877a.5.5 0 0 0 .78 0c.633-.79 1.814-1.019 3.222-.877 1.378.139 2.8.62 3.681 1.02A.5.5 0 0 0 16 13.5v-11a.5.5 0 0 0-.293-.455c-.952-.433-2.48-.952-3.994-1.105C10.413.809 8.985.936 8 1.783" />
+              </svg>
+            </div>
+            <div class="d-flex flex-column ms-2">
+              <span class="fw-bold">Pelajaran</span>
+              <span class="text-muted fs-sub mt-1">Deskripsi</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Us -->
+    <div class="about d-flex flex-column align-items-center">
+      <span class="fw-bold fs-4">Tentang</span>
+      <p class="text-center mt-3 w-100">Selamat datang di <span class="fw-bold">InLearning</span>, rumah bagi
+        pembelajaran online yang menginspirasi.
+        Kami menawarkan akses mudah ke kursus-kursus berkualitas tinggi yang dirancang untuk meningkatkan pengetahuan
+        dan keterampilan Anda. Dengan kombinasi konten unggul dan teknologi inovatif, InLearning memungkinkan Anda untuk
+        belajar di mana saja, kapan saja. Bergabunglah dengan komunitas kami hari ini dan mulailah perjalanan Anda
+        menuju pembelajaran yang tak terbatas!</p>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="bg-footer">
+    <div class="container">
+      <div class="footer row pt-5">
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <p class="fw-bold fs-5 text-light">InLearning</p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light d-flex flex-row">
+              <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" fill="currentColor" class="bi bi-geo-alt"
+                viewBox="0 0 16 16">
+                <path
+                  d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A32 32 0 0 1 8 14.58a32 32 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94M8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10" />
+                <path d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4m0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6" />
+              </svg>
+              <span class="ms-2">
+                Jl. Lorem ipsum dolor sit amet consectetur, adipisicing
+                elit. Nostrum fugiat excepturi adipisci?
+              </span>
+            </a>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <p class="fw-bold fs-5 text-light">Produk & Layanan</p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light">Materi Belajar</a>
+          </p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light">Langganan</a>
+          </p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light">Produk 3</a>
+          </p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-4">
+          <p class="fw-bold fs-5 text-light">Kontak Customer Service</p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light d-flex flex-row align-items-center">
+              <svg class="text-light" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-phone" viewBox="0 0 16 16">
+                <path
+                  d="M11 1a1 1 0 0 1 1 1v12a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1zM5 0a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h6a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2z" />
+                <path d="M8 14a1 1 0 1 0 0-2 1 1 0 0 0 0 2" />
+              </svg>
+              <span class="ms-2">+62 8xx-xxxx-xxxx</span>
+            </a>
+          </p>
+          <p class="fs-sub2">
+            <a href="#" class="text-decoration-none text-light d-flex flex-row align-items-center">
+              <svg class="text-light" xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
+                class="bi bi-envelope" viewBox="0 0 16 16">
+                <path
+                  d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1zm13 2.383-4.708 2.825L15 11.105zm-.034 6.876-5.64-3.471L8 9.583l-1.326-.795-5.64 3.47A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.741M1 11.105l4.708-2.897L1 5.383z" />
+              </svg>
+              <span class="ms-2">inlearning@gmail.com</span>
+            </a>
+          </p>
+        </div>
+      </div>
+      <hr class="border-light">
+      <div class="d-flex justify-content-center pb-3">
+        <span class="text-light">2024 Copyright InLearning - Kelompok 15. All Rights Reserved.</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Latest compiled JavaScript -->
+  <script src="js/script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

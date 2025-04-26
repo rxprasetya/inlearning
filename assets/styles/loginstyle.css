@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    background-color: #F0F7FF;
+    font-family: sans-serif;
+}
+
+.htitle {
+    margin-left: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    font-size: 20px;
+    margin-bottom: 70px;
+    font-weight: bold;
+    padding: 27px;
+    margin-right: 20px;
+    box-shadow: 0px 6px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav ul {
+    display: flex;
+    gap: 2rem;
+}
+
+nav li {
+    color: black;
+    text-align: center;
+    list-style-type: none;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: rgb(117, 115, 115);
+}
+
+.container {
+    background-color: white;
+    width: 500px; 
+    margin: 0 auto; 
+    padding: 20px; 
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.1);
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form label {
+    font-weight: bold;
+    text-align: left;
+    margin-bottom: 5px; 
+    width: 100%; 
+    max-width: 450px; 
+    margin-left: 0; 
+    margin-right: auto;
+}
+
+form input {
+    width: 450px;
+    margin: 10px;
+    margin-bottom: 0;
+    padding: 10px;
+    border: 2px solid #000000;
+    border-radius: 5px; 
+    font-size: 15px;
+}
+
+form input[type="checkbox"] {
+    width: auto;
+}
+
+form input[type="submit"]{
+    border-radius: 5px;
+    width: 200px;
+    cursor: pointer;
+    margin-top: 0;
+    color: white;
+    background-color: #1F7CFF;
+}
+
+form input[type="submit"]:hover {
+    background-color: #333; 
+    color: #fff; 
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #101010;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+form p {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+form p a{
+    text-decoration: none;
+}
+
+form p a:hover{
+    color: rgb(0, 0, 0);
+}
+
+.ask{
+    margin-top: 8px;
+}

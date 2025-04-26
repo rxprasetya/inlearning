@@ -1,0 +1,91 @@
+/* Backgroudn Color */
+.bg-salmon {
+    background-color: #F75C4E;
+}
+
+.bg-lightblue {
+    background-color: #D1E0FF;
+}
+
+.bg-lightpurple {
+    background-color: #EA95FF;
+}
+
+.bg-lightorange {
+    background-color: #F7954E;
+}
+
+.bg-orange {
+    background-color: #FCB74F;
+}
+
+.bg-purple {
+    background-color: #A157B4;
+}
+
+.bg-darkpurple {
+    background-color: #191046;
+}
+
+.bg-darkblue {
+    background-color: #1E54A1;
+}
+
+.bg-pink {
+    background-color: #FF1FB3;
+}
+
+.bg-footer {
+    background-color: #232323;
+}
+
+
+/* Layout */
+html{
+    scroll-behavior: smooth;
+}
+
+html::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    background-color: #F0F7FF;
+    font-family: Poppins;
+}
+
+#navbar {
+    width: 100%;
+    padding: 16px 0px;
+    background-color: #F0F7FF;
+    position: fixed;
+    top: 0;
+    transition: top .5s;
+    z-index: 1000;
+}
+/* index */
+.main {
+    margin-top: 112px;
+}
+
+.materi {
+    margin-top: 112px;
+}
+
+.about {
+    margin-top: 128px;
+}
+
+.footer {
+    margin-top: 72px
+}
+
+
+/* Font Size */
+.fs-sub {
+    font-size: 12px;
+}
+
+.fs-sub2 {
+    font-size: 14px;
+}
